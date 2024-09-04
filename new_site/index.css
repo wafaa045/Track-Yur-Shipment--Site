@@ -1,0 +1,316 @@
+
+* {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+    
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   background-color:rgb(8, 92, 134);
+   padding: 10px;
+   
+}
+
+.logo a {
+    color: #fff;
+    font-size: 32px;
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+    font-weight: bold;
+   text-transform: capitalize;
+}
+
+.nav-links a:hover {
+    background-color: rgb(35, 55, 98);
+    margin-top: 3px;
+    border-radius: 10px;}
+
+.cont{ background: linear-gradient(#13143894,#04041494),url(./images/track-bg.jpg);
+  
+
+    color: #fff;
+    background-size: cover; /* يجعل الصورة تغطي كامل العنصر */
+    background-position: center; /* يوسط الصورة */
+    background-repeat: no-repeat; /* يمنع تكرار الصورة */
+    width: 100%;
+    height: 660px;
+    background-color: red;
+    padding: 20px;
+    
+
+
+}
+ h1{ text-transform: capitalize;
+
+ font-size:31px; 
+margin-top: 50px;
+padding: 10px 40px;
+
+
+}
+
+
+.cont p{   text-transform: capitalize;
+    margin-top: 30px;
+    padding: 10px 40px;
+    font-size: 20px;
+   
+    }
+.input_div {
+
+    margin-top: 30px;
+      
+        padding: 10px 40px;
+        font-size:25px;}
+     
+        
+
+.input_div input{ height: 50px;
+    text-transform: capitalize;
+width: 30%;
+border-radius: 5px;
+padding: 10px 0px 10px 20px;
+color: black;
+font-size: 20px;
+
+
+}
+.input_div button{background: rgb(8, 92, 134);
+     height: 50px;
+    text-transform: capitalize;
+width: 10%;
+border-radius:5px;
+color: #fff;
+font-size: 20px;
+
+border: #fff;
+}
+.container_div{ margin-top:100px ;}
+
+.grid_section{ display: grid;
+grid-template-columns: 48% 48%;
+margin: 40px;
+gap:4% 4%;
+
+  }
+
+
+.serv_section h2{ margin:40px; 
+    font-size: 40px;
+    text-transform: capitalize;}
+
+.serv_section span{ 
+    color:rgb(8, 92, 134); 
+    font-size: 40px;
+}
+.pargraph_serv{ margin:40px; 
+    text-transform: capitalize;
+    font-size: 20px;
+   }
+
+
+
+   .grid_section  section{
+    display:  flex;
+    background-color: #f0f0f3;
+    padding:25px;
+border-radius: 4px;}
+
+.grid_section  img{ width:80px; height: 50px;} 
+    
+.grid_section h3{ text-transform: uppercase;
+    margin-left: 40px;
+    font-size: 27px;
+   }
+
+   .serv_section p{ 
+
+    margin: 20px 40px;
+   
+ }
+ 
+    .grid_section a{ 
+         text-transform: capitalize;
+         font-size: 20px;
+         margin-left: 40px;
+               
+         text-decoration: none;
+         color:rgb(8, 92, 134);}
+       
+   .about_section{ 
+
+display: flex;
+margin-top:80px;
+padding: 20px;
+
+   }
+   
+   .about_section h2{ margin:40px; 
+    font-size: 40px;
+    text-transform: capitalize;}
+
+.about_section span{ 
+    color:rgb(8, 92, 134); 
+    font-size: 40px;
+} 
+.about_section p{ font-size: 20px;}
+.about_section button{  text-transform: uppercase;
+background-color: rgb(8, 92, 134); 
+color:#ffff;
+padding: 15px 40px;
+font-size: 20px;
+border-style: none;
+margin:20px 40px;
+
+border-radius: 5px;
+    
+}
+.about_section img{  width:600px; height:  400px;} 
+  .about_img{ display: flex;}
+  .about_img div{
+    width:26px; 
+    height: 300px;
+    background-color:rgb(8, 92, 134);
+    margin-top:40px ;
+  }
+  .contact_section h2{ margin: 40px 40px 0px ; 
+    font-size: 40px;
+    text-transform: uppercase;}
+    
+    .contact_div{ display: flex;
+   }
+ .contact_form { margin: 40px; 
+width: 600px;}
+
+ form div{ padding:18px ;}
+ .contact_form  input{ height:50px; width:500px;
+    padding: 10px;   
+    box-shadow: 0px 0px 10px rgb(8, 92, 134,0.3);
+    border-style: none;
+    font-size: 20px;
+}
+
+
+ .inp_massege input{  height:150px; width:500px;
+padding: 10px;
+font-size: 20px;
+}
+ form button{ height:50px;  
+             text-transform: uppercase;
+        background-color:  rgb(8, 92, 134);
+        color:#ffff;
+        padding: 10px 40px;
+        font-size: 20px;
+        border-style: none;
+       border-radius: 5px;
+        text-align: center;}
+        
+
+        iframe {margin-top:45px; 
+            width:800px;
+            height: 550px; 
+            border: 0;
+            border-radius: 4px;
+             
+          }
+
+  footer{ background-color: rgb(8, 92, 134);
+display: grid;
+grid-template-columns: repeat(4,22%);
+justify-content: space-evenly;
+margin-top: 20px;
+color: #ffff;
+padding: 20px 20px 10px ;
+}
+footer h3{ 
+text-transform: capitalize; 
+margin:30px;
+font-size:25px;}
+
+.div_add { display: flex; 
+padding: 20px;
+}
+footer h4{ 
+    text-transform: capitalize; 
+    font-size: 18px;}
+    
+.div_add div{ margin-left: 20px;
+
+font-size: 30px;
+
+}
+.div_i{ margin-left: 0px !important;}
+
+.footer_inf p{ font-size: 20px;
+  margin: 30px;
+  padding: 0px !important;
+}
+
+
+.footer_lin ul{   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  
+}
+
+.footer_lin a{  font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    
+   text-transform: capitalize;
+}
+
+    .footer_sub input{ border-style: none;
+    border-bottom:3px  #ffff solid;
+    background-color:  rgb(8, 92, 134);
+    font-size: 20px;
+    color: #ffff !important;
+    margin: 30px;
+    padding: 20px  0px ;
+
+margin-top: 0px !important;
+}
+
+     
+    
+    .footer_btn {text-transform: uppercase;
+        background-color: rgb(3, 36, 52); 
+        color:#ffff;
+        padding: 10px 80px ;
+        font-size: 20px;
+        border-style: none;
+        margin:3px 30px;
+        text-align: center;
+        
+            
+        }   
